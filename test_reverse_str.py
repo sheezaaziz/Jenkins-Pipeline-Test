@@ -4,7 +4,7 @@ def reverse(str):
         reversed += str[i];
     return reversed;
 
-def test_reverse():
+def test_reverse_true():
     greeting = 'Hello';
     reverse_greeting = reverse(greeting);
     assert reverse_greeting == 'olleH';
